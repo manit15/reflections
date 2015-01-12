@@ -13,3 +13,26 @@ fact that staging area contains only those files whose changes are to be
 tracked among all the files in the working directory. Repository contains
 commits, that is, a copy of files to be tracked at a particular time.
 
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+We can make changes in a lot of files, each with it's own logical change.
+We can then select which ones belong to the same logical change, group them
+together and commit them using the staging area. Then the other changes can
+be committed using the same procedure till all the changes are committed.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches can be helpful in situations where we need to create various
+versions of code which may or may not work out, or merge back to the intital
+code. Thus we will always have our original code, and we can work on various
+versions without one interfering with the other. Later, we can either merge
+them or keep them separate as required.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams create a chart clearly depicting the commit where the branches 
+forked, or merged, which is rather hard to see in individual commit messages
+for branches.
+
