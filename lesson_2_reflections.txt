@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize a repository, a new hidden directory is createed with
+the name .git, which contains the metadata associated with the repository.
+We need it so as to be able to track changes in the files contained in the
+repository, which is the whole point of using version control systems.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+Staging area is different from the working directory and repository in the
+fact that staging area contains only those files whose changes are to be
+tracked among all the files in the working directory. Repository contains
+commits, that is, a copy of files to be tracked at a particular time.
+
