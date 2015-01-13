@@ -36,3 +36,19 @@ The diagrams create a chart clearly depicting the commit where the branches
 forked, or merged, which is rather hard to see in individual commit messages
 for branches.
 
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+The commits in either branch are merged together, sorted according to
+timestamp. We represent it the way we do so as to facilitate proper
+understanding of what actually happened and to make it more readable.
+
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+Pros -> We don't need to worry about copying all the code at the proper place.
+		Also, most of the time, Git does the job just fine.
+Cons -> When Git merges files, it may fail to recognize some part of code
+		being, effectively, repeated. In such cases, manual merging is better.
+		This is one of the reasons why naming culture exists in organisations.
+
