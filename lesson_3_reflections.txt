@@ -6,3 +6,13 @@ is inaccessible, such as when on vacation. Keeping all your
 work local has the downside that all of it can be lost pretty
 easily, while remotes are more reliable.
 
+Why might you want to always pull changes manually rather than
+having Git automatically stay up-to-date with your remote
+repository?
+
+Suppose you are working on a new feature, which makes use of
+some of the old code. Now, if someone else decides that the part
+of code you were using is more or less useless and deletes that,
+then if Git automatically pulls the changes, your work will
+start showing unexpected errors. If you pull manually, you can
+avoid a lot of headache.
