@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than
+keeping all your work local?
+
+This could be useful in a scenario when the local workstation
+is inaccessible, such as when on vacation. Keeping all your
+work local has the downside that all of it can be lost pretty
+easily, while remotes are more reliable.
+
