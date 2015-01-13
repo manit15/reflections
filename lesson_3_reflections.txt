@@ -16,3 +16,16 @@ of code you were using is more or less useless and deletes that,
 then if Git automatically pulls the changes, your work will
 start showing unexpected errors. If you pull manually, you can
 avoid a lot of headache.
+
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+Fork is a clone of a repository on GitHub from GitHub. Clone is
+a copy of a respository on a local machine. Branch is a commit
+which relates to some other commit from master and then builds
+upon it separately from master.
+
+If we need to copy from GitHub to GitHub, we use forking. If
+copying is to be done on local machine, cloning is used. If we
+need to test features other than master, we use branching.
+
