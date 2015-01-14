@@ -29,3 +29,10 @@ If we need to copy from GitHub to GitHub, we use forking. If
 copying is to be done on local machine, cloning is used. If we
 need to test features other than master, we use branching.
 
+What is the benefit of having a copy of the last known state of
+the remote stored locally?
+
+When we have a copy of the last known state of the remote stored
+locally, we have the last known commit remote repository had,
+which git can use to compare to the changes in master locally.
+
