@@ -36,3 +36,12 @@ When we have a copy of the last known state of the remote stored
 locally, we have the last known commit remote repository had,
 which git can use to compare to the changes in master locally.
 
+How would you collaborate without using Git or GitHub? What
+would be easier, and what would be harder?
+
+Each case has its own merits depending upon the use cases. Using
+git and github, we can collaborate by changing some of the code,
+letting others check that change and then merge the master with
+the change. This works for code, but solutions like google docs
+work better with casual documents.
+
