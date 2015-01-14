@@ -45,3 +45,12 @@ letting others check that change and then merge the master with
 the change. This works for code, but solutions like google docs
 work better with casual documents.
 
+When would you want to make changes in a separate branch rather
+than directly in master? What benefits does each approach have?
+
+When we want master to keep working the way it was, and try a new
+feature or fix something up, without disrupting master, we use a 
+branch. Directly masking changes are easier to sync, but have the
+probability of breaking the code. Moreover, multiple people can
+work simultaneously on different things, rather than all of the
+resources being put on a single project.
